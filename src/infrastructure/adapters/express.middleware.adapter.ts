@@ -1,6 +1,6 @@
 import { Response, NextFunction } from 'express';
 import { HttpRequest } from '@infra/http';
-import { BaseMiddleware } from '@interfaces/middlewares/base_middleware';
+import { BaseMiddleware } from '@shared_utils/base_middleware';
 
 export const MiddlewareAdapter = (middleware: BaseMiddleware, ...params: any[]) => {
   return async (req: any, res: Response, next: NextFunction) => {
