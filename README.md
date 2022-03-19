@@ -115,6 +115,29 @@ Below we have the architectural names used for this project and their basic expl
 
 - ***Shared***: finally, this is the layer where we have something that can be used throughout the application, something that more than one layer will use.
 
+### Screenshots
+- Current test coverage:
+
+<div align="center">
+  
+  <img src="./docs/img/testcov.png" />
+  
+</div>  
+
+- Insomnia requests
+
+<div align="center">
+  
+  <img src="./docs/img/balances_request.png" />
+  
+</div>
+
+<div align="center">
+  
+  <img src="./docs/img/transactions_requests.png" />
+  
+</div>
+
 
 [Docker]: https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04
 [Docker Compose]: https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04
