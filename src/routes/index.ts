@@ -1,5 +1,5 @@
 import { Router } from "express";
-import bankRouter from "./bank.routes";
+import bankRouter from "./bankRouter";
 
 const routes = Router();
 
