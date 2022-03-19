@@ -1,6 +1,6 @@
-interface Transactions {
+export interface Transactions {
   amount: number
-  type: string,
+  type: number,
   text: string
 }
 

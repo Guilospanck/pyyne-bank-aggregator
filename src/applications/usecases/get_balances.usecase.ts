@@ -1,19 +1,20 @@
+import { IBankAdapter } from "@app/interfaces/ibank.adapter";
 import { BalancesDTO } from "@business/dtos/balances.dto";
 import { BaseError } from "@business/errors/base_error";
 import { IGetBalancesUsecase } from "@business/usecases/iget_balances.usecase";
-import { Either, right } from "@shared/utils/either";
+import { Either, left, right } from "@shared/utils/either";
 
 export class GetBalancesUsecase implements IGetBalancesUsecase {
 
+  constructor(private readonly _bankAdapter: IBankAdapter){}
+
   get(): Either<BaseError, BalancesDTO[]> {
+    const result = this._bankAdapter.getBalances();
+    if(result.isLeft()){
+      return left(new Error(result.value.message));
+    }
 
-    const temp: BalancesDTO[] = [{
-      accountId: 456465487489,
-      balance: 456.9,
-      bank: "Bank1"
-    }];
-
-    return right(temp)
+    return right(result.value)
   }
 
 }

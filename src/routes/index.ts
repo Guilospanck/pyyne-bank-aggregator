@@ -1,8 +1,8 @@
 import { Router } from "express";
+import bankRouter from "./bank.routes";
 
 const routes = Router();
 
-// routes.use('/user', userRouter);
-// routes.use('/pix', pixRouter);
+routes.use('/bank', bankRouter);
 
 export default routes;
