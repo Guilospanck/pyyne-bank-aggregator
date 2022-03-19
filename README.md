@@ -1,6 +1,8 @@
 # Pyyne Bank Aggregator
 Simple bank aggregator built with Node.js using TypeScript.
 
+[![codecov](https://codecov.io/gh/Guilospanck/pyyne-bank-aggregator/branch/main/graph/badge.svg?token=86L4EII3VH)](https://codecov.io/gh/Guilospanck/pyyne-bank-aggregator)
+
 ## Installation
 You can install it using Node.js installed in your machine or by using Docker.
 
