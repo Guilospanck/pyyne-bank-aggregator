@@ -5,3 +5,5 @@ services:
     container_name: bank-aggregator
     restart: unless-stopped
     build: .
+    ports:
+      - 4444:4444
