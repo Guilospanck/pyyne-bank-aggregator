@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  bank-aggregator:
+    container_name: bank-aggregator
+    restart: unless-stopped
+    build: .

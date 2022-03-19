@@ -2392,6 +2392,14 @@ core-js-compat@^3.20.2, core-js-compat@^3.21.0:
     browserslist "^4.19.1"
     semver "7.0.0"
 
+core-js-compat@^3.20.2, core-js-compat@^3.21.0:
+  version "3.21.1"
+  resolved "https://registry.yarnpkg.com/core-js-compat/-/core-js-compat-3.21.1.tgz#cac369f67c8d134ff8f9bd1623e3bc2c42068c82"
+  integrity sha512-gbgX5AUvMb8gwxC7FLVWYT7Kkgu/y7+h/h1X43yJkNqhlK2fuYyQimqvKGNZFAY6CKii/GFKJ2cp/1/42TN36g==
+  dependencies:
+    browserslist "^4.19.1"
+    semver "7.0.0"
+
 cors@^2.8.5:
   version "2.8.5"
   resolved "https://registry.yarnpkg.com/cors/-/cors-2.8.5.tgz#eac11da51592dd86b9f06f6e7ac293b3df875d29"
@@ -5254,7 +5262,7 @@ rxjs@^7.5.1:
   dependencies:
     tslib "^2.1.0"
 
-safe-buffer@5.2.1, safe-buffer@~5.2.0:
+safe-buffer@5.2.1, safe-buffer@~5.2.0
   version "5.2.1"
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.2.1.tgz#1eaf9fa9bdb1fdd4ec75f58f9cdb4e6b7827eec6"
   integrity sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==
