@@ -1,7 +1,7 @@
 import { IGetBalancesUsecase } from "@business/usecases/iget_balances.usecase";
 import { IGetTransactionsUsecase } from "@business/usecases/iget_transactions.usecase";
 import { HttpRequest, HttpResponse } from "@infra/http";
-import { ControllerBase } from "./controller_base";
+import { ControllerBase } from "@shared_utils/controller_base";
 
 export class BankController extends ControllerBase {
 

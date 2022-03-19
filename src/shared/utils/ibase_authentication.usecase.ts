@@ -3,5 +3,5 @@ import { JwtPayload } from "jsonwebtoken";
 import { Either } from "./either";
 
 export interface IBaseAuthenticationUsecase {
-  perform(token: string, userId: string): Promise<Either<BaseError, string | JwtPayload>>
+  perform(token: string): Promise<Either<BaseError, string | JwtPayload>>
 }
