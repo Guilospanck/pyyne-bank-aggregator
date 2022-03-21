@@ -30,7 +30,11 @@ To start up the server.
 ### Using Docker
 With [Docker] and [Docker Compose] installed, ```cd``` into the project directory and run:
 ```bash
+# docker compose v1
 sudo docker-compose -f docker-compose.yml up -d --build
+
+# docker compose v2
+docker compose --file docker-compose.yml up
 ```
 In order to view the logs once it's built, run:
 ```bash
