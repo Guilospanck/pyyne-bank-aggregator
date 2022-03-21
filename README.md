@@ -34,7 +34,7 @@ With [Docker] and [Docker Compose] installed, ```cd``` into the project director
 sudo docker-compose -f docker-compose.yml up -d --build
 
 # docker compose v2
-docker compose --file docker-compose.yml up
+sudo docker compose -f docker-compose.prod.yml up -d --build
 ```
 In order to view the logs once it's built, run:
 ```bash
